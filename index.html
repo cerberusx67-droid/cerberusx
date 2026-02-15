@@ -39,7 +39,12 @@
     }
 
     .logo-area { display: flex; align-items: center; gap: 12px; }
-    .logo-area img { height: 45px; }
+    .logo-area img {
+    height: 45px;
+     width: auto;
+  display: block;
+}
+
     .logo-area span { font-size: 1.6em; font-weight: bold; letter-spacing: 1px; }
 
     nav a {
@@ -203,8 +208,6 @@
       text-decoration: none;
       cursor: pointer;
     }
-
-    /* MODAL QUIZ */
     .modal {
       display: none;
       position: fixed;
@@ -293,7 +296,7 @@
 
 <header>
   <div class="logo-area">
-  <img src="logo.JPEG" alt="Logo Cerberus X">
+  <img src="logo.png" alt="Logo Cerberus X">
     <span>CERBERUS X</span>
   </div>
   <nav>
@@ -498,6 +501,7 @@ document.getElementById("hiddenAccess").addEventListener("click", function(e) {
 
 </body>
 </html>
+
 
 
 
